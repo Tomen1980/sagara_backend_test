@@ -1,0 +1,32 @@
+{
+  "name": "sagara_backend_test",
+  "version": "1.0.0",
+  "description": "Anda diminta untuk mengembangkan backend untuk sistem manajemen inventaris sebuah toko baju. Sistem ini harus dapat menangani pembaruan stok baju, penambahan baju baru, dan pencarian baju berdasarkan judul atau penulis.",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomen1980/sagara_backend_test.git"
+  },
+  "author": "Agung Jumantoro Andrian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tomen1980/sagara_backend_test/issues"
+  },
+  "homepage": "https://github.com/Tomen1980/sagara_backend_test#readme",
+  "dependencies": {
+    "@prisma/client": "^5.17.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "nodemon": "^3.1.4"
+  },
+  "devDependencies": {
+    "prisma": "^5.17.0"
+  }
+}
